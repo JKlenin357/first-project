@@ -27,6 +27,7 @@ public class SignupPageActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
+        Log.e("TAG","onRestart");
     }
 
     @Override
