@@ -21,6 +21,7 @@ public class SignupPageActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Toast.makeText(this,"onStart",Toast.LENGTH_SHORT).show();
+        Log.e("TAG","onStart");
     }
 
     @Override
