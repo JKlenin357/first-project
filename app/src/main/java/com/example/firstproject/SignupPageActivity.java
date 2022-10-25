@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 public class SignupPageActivity extends AppCompatActivity {
@@ -48,5 +49,9 @@ public class SignupPageActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+    }
+
+    public void homePage(View view) {
+
     }
 }
